@@ -6,6 +6,6 @@ The below environment variables should be provided. The container will allow con
 Using SCP the provided file can be downloaded.
 
 ## Environment variables
-PUBLIC\_KEY - should contain the public key. Is pasted into authorized\_keys of the user
+PUBLIC\_KEY - should contain the public key. Is pasted into authorized\_keys of the user\
 FILE - Stored as "the-file" in the users home directory (/home/user/the-file)
 
