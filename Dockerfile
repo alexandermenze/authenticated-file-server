@@ -25,4 +25,5 @@ CMD echo "$PUBLIC_KEY" > /home/user/.ssh/authorized_keys && \
     chown -R user:user /home/user/.ssh && \
     echo "$FILE" > /home/user/the-file && \
     chown user:user /home/user/the-file && \
+    echo "Setup complete. Starting SSH server..." && \
     /usr/sbin/sshd -D
